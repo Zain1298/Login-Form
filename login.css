@@ -1,0 +1,68 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(car3.jpg);
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.login {
+	width: 320px;
+	height: 420px;
+	background: rgba(2, 12, 1, 0.2);
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	
+}
+
+.login h1{
+	color: white;
+	font-family: 'Clicker Script', cursive;
+}
+
+
+
+.login p {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Clicker Script', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+.login input {
+		width: 100%;
+		margin-bottom: 29px;
+}
+
+.login input[type="text"], input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+}
+
+.login input[type="submit"]
+{
+	border: none;
+	outline: white;
+	height: 50px;
+	background: red;
+	border-radius: 20px;
+	color: white;
+	font-size: 14px;
+}
+
+.login input[type="submit"]:hover
+{
+	cursor: pointer;
+	color: black;
+	font-size: 14px;
+}
